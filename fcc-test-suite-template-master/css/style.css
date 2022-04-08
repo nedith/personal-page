@@ -73,11 +73,14 @@ img {
   }
 
   .projects-section-header h2 {
-    max-width: 640px;
-    margin: 0 auto 6rem auto;
-    border-bottom: 0.3rem solid black;
+    max-width: 670px;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 15px;
+    margin-left: auto;
+    border-bottom: 2px solid white;
     color: white;
-    padding-top: 5px;
+    padding-top: 30px;
   }
 
   #projects {
@@ -91,14 +94,13 @@ img {
   }
 
   .project-image {
-    height: calc(100% - 6.8rem);
+    height: auto;
     width: 100%;
-    object-fit: cover;
   }
   
   .project-title {
     font-size: 2rem;
-    padding: 1rem 0.5rem;
+    padding-top: 3px;
     font-weight: bold;
     color: black;
   }
@@ -109,32 +111,27 @@ img {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 0 2rem;
+    padding: auto;
     background-color: #680909;
   }
   
   .contact-section-header > h2 {
-    font-size: 4rem;
+    font-size: 45px;
   }
 
   .contact-section-header > p {
     font-style: italic;
-    font-size: 2rem;
+    font-size: 30px;
   }
   
   .contact-links {
     display: flex;
     justify-content: center;
-    width: 100%;
-    max-width: 980px;
-    margin-top: 4rem;
-    flex-wrap: wrap;
+    margin-top: 20px;
   }
   
   .contact-details {
-    font-size: 2.4rem;
-    text-shadow: 2px 2px 1px #1f1f1f;
-    transition: transform 0.3s ease-out;
+    font-size: 5px;
   }
   
   
